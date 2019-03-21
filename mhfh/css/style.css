@@ -1,0 +1,535 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote: before, blockquote: after,
+q: before, q: after {
+  content:'';
+  content:none;
+}
+
+a {
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* BODY */
+
+body {
+  background: url(../images/greenBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+body img {
+	border: 5px ridge #464102;
+	text-decoration: none;
+}
+
+#container {
+	background: #fff url(../images/pinkGreen.png);
+	background-repeat: no-repeat;
+  background-size: cover;
+	border: 2px solid #464102;
+  box-shadow: 0 0 8px 2px #464102;
+	margin: 50px auto 0 auto;
+	padding: auto; 
+	width: 90%;
+}
+
+#inner {
+	background: #f9e8e8;
+	border: 7px ridge #464102;
+	padding: 20px auto 0 auto;
+	margin: 40px auto 0 auto;
+	width: 95%;
+}
+
+
+/* MASTHEAD */
+
+#masthead {
+	border-collapse: collapse;
+	width: 98%;
+}
+
+#masthead img {
+  border: none;
+  margin-bottom: 10px;
+}
+
+#masthead tr td {
+  border: hidden;
+	padding: 5px;
+}
+
+#masthead .title {
+	background-color: inherit;
+	color: #464102;
+	font-family: "Monotype Corsiva", Times, serif;
+	font-size: 500%;
+	font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+#masthead a {
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+/* NAV-LOGIN */
+
+.nav-login {
+  display: inline-block;
+  float: right;
+}
+
+/*.nav-login, .greeting {
+  display: inline-block;
+  
+}*/
+
+
+.nav-login form {
+  padding-top: 5px;
+}
+
+.nav-login form input {
+  background-color: #dfc3ad;
+  border: 1px solid #464102;
+  color: #111;
+  font-family: arial;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  padding: 0px 10px;
+  width: 140px;
+}
+
+.nav-login form button {
+  background-color: #7a9f85;
+  border: 1px solid #464102;
+  color: #111;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 14px;
+  height: 30px;
+  margin-right: 12px;
+  width: 80px;
+}
+
+.nav-login form button:hover {
+  background-color: #9fc4aa;
+}
+
+.nav-login a {
+  background-color: #7a9f85;
+  border: none;
+  color: #111;
+  cursor: pointer;
+  display: block;
+  font-family: arial;
+  font-size: 16px;
+  height: 60px;
+  line-height: 63px;
+  width: 60px;
+}
+
+.greeting {
+  margin: 0;
+  width: 150px;
+}
+
+
+/* CONTENT */
+
+#content {
+  border: none;
+  border-collapse: collapse;
+  border-top: medium #464102 ridge;
+  margin: auto;
+  vertical-align: top;
+  width: 98%;
+}
+
+
+/* LINKS */
+
+a {
+	border: none;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+	background: transparent;
+  border: none;
+	color: #464102;
+  width: 100%;
+}
+
+a:hover {
+	background-color: #dfc3ad;
+  border: none;
+	color: #000;
+	text-decoration: none;
+  width: 100%;
+}
+
+
+/* NAVIGATION */
+
+.ui-menu {
+  width: 20%;
+}
+
+.ui-menu .ui-menu {
+  width: 20%;
+}
+
+.ui-menu .ui-menu .ui-menu {
+  width: 45%;
+}
+
+.navigation {
+  border: none;
+	float: left; /* NO FLOAT MAKES NAV SIT AT BOTTOM */
+	width: 20%;
+}
+
+.ui-menu {
+  border: none !important;
+}
+
+.navigation #menu {
+  border: 1px solid #464102;
+	list-style: none;
+	margin: 0;
+	margin-bottom: 4px;
+	padding: 1px;
+  width: auto;
+}
+
+.navigation #menu li {
+	background-color: #dfc3ad;
+  border: 1px solid #464102;
+  font-family: arial;
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  height: auto;
+  padding: inherit;
+	text-decoration: none;
+}
+
+.navigation ul ul li {
+	font-size: 80%;
+	font-weight: normal;
+	padding: 3px 0 3px 5px;
+}
+
+.main {
+  align-content: center;
+  border: none;
+  border-left: medium ridge #464102;
+  float: right;
+  height: 98%;
+  margin-bottom: 10px;
+	vertical-align: top;
+  width: 75%;
+}
+
+
+/* RESP IMAGES */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* four equal columns next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* resp layout - makes two column-layout instead of four */
+@media (max-width: 800px) {
+  .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+/* resp layout - the two columns stack on top of instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+p {
+  overflow: hidden;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  float: left;
+  padding: 0 6px;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    margin: 6px 0;
+    width: 49.99999%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+    }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* GALLERY */
+
+.gallery figure {
+  display: inline-block;
+  position: relative;
+}
+
+figure img {
+  background-color: #fff;
+  border: 1px solid #666;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  height: auto;
+  max-width: 100%;
+  padding: 4px;
+}
+
+figcaption {
+  font: .75em Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: auto;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: auto;
+}
+
+
+/* TABLE */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  width: auto;
+}
+
+table, td {
+  width: auto;
+}
+table, th, td {
+  border: 2px solid #464102;
+  padding: 10px;
+}
+
+table, th {
+  height: 30px;
+  text-align: left;
+}
+
+table, tr {
+  height: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dfc3ad; 
+}
+
+
+/* SIGNUP FORM */
+
+.signup-form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.signup-form input {
+  background-color: #e5d0bf;
+  border: 1px solid #ccc;
+  color: #000;
+  font-family: arial;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 4px;
+  padding: 0px 5% 0 3%;
+  width: 100%;
+}
+
+.signup-form button {
+  background-color: #e5d0bf;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 4px white;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  font-family: arial;
+  font-size: 16px;
+  height: 40px;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.signup-form button:hover {
+  background-color: #dfc3ad;
+}
+
+.error {
+  color: #b74b4b;
+  font-size: 20px;
+}
+
+.success {
+  color: yellow;
+  font-size: 50px;
+}
+
+
+/* FOOTER */
+.footer {
+	border-top: medium ridge #464102;
+	font-size: 85%;
+	margin: auto;
+	padding: 5px 5px;
+  width: 98%;  
+}
+
+
+/* RWD */
+
+@media (min-width: 481px) and (max-width:768px) {
+  .navigation {
+    float: none;
+    width: auto;
+    clear: both;
+}
+  
+  #inner {
+    width: auto;
+  }
+  
+  .main {
+    border-right: none;
+  }
+}
+
+@media (max-width:480px) {
+  #inner, .main, .navigation {
+    float: none;
+    width: auto;
+  }
+  
+  .main {
+  border: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
